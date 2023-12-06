@@ -3,7 +3,7 @@
 
 ## Lora节点实物展示
 
-![1af59879a00f6b5b2023de0fee46106|100](https://github.com/LB1222/-Lora-/assets/126633339/c29866b7-c6a0-4070-aa3e-788a7c527a2d)
+![Engelbart|100](https://github.com/LB1222/-Lora-/assets/126633339/c29866b7-c6a0-4070-aa3e-788a7c527a2d)
 ![694a518a653c25b6004f019dfa1083d](https://github.com/LB1222/-Lora-/assets/126633339/60263a39-fed9-4b76-8f5e-f4e7e3a1c5f3)
 
 ## Lora网关实物展示
