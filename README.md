@@ -1,7 +1,24 @@
+
 # 低功耗Lora自组网络监测系统
 <span style="color: red;">目前暂时上传项目说明文档，源代码还需要完善，敬请期待！</span>
+##
+## 系统总体方案设计
 
-**GitHub的MARKDOWN语言似乎跟Obsidian的MARKDOWN有区别** 图片大小暂时这样！
+<img src="https://github.com/LB1222/LPC-LoRaN-MonitoringSystem/raw/Images/图片1.png" width="500" height="400" />
+
+##  LoRa节点硬件设计框图
+<img src="https://github.com/LB1222/LPC-LoRaN-MonitoringSystem/raw/Images/图片2.png" width="500" height="400" />
+
+##   LoRa网关硬件设计框图
+
+<img src="https://github.com/LB1222/LPC-LoRaN-MonitoringSystem/raw/Images/图片3.png" width="500" height="400" />
+
+### LoRa节点PCB尺寸为长77.4mm、宽54.6mm，顶层主要作为MCU、传感器模块的搭载区域，底层为GPS模块及通信模块。
+<img src="https://github.com/LB1222/LPC-LoRaN-MonitoringSystem/raw/Images/图片4.png" width="450" height="300" />
+
+### LoRa网关PCB板子尺寸为长97.9mm、宽56.5mm。顶层主要作为MCU、BlE蓝牙5.0音频报警器和OLED显示屏模块的搭载区域，底层通信模块。
+<img src="https://github.com/LB1222/LPC-LoRaN-MonitoringSystem/raw/Images/图片5.png" width="450" height="300" />
+
 ## Lora节点实物展示
   正式板由4层板改为2层板，一是降低成本，二是打板速度更快。除了传感器使用排母，所有器件都是手搓，用 热台的速度会快些，但是元器件种类比较多，这块儿比较耽误时间。Lora节点板1.2所有功能全测暂时没有遇到问题，布线没有4层板漂亮。
    **部分0603的贴片可以换成0805的，MCU不建议用我这款**
