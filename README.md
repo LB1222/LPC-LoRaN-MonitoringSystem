@@ -3,8 +3,12 @@
 
 **GitHub的MARKDOWN语言似乎跟Obsidian的MARKDOWN有区别** 图片大小暂时这样！
 ## 系统总体方案设计
-![Image 1](https://github.com/LB1222/LPC-LoRaN-MonitoringSystem/raw/Images/图片1.png)
-## LoRa节点硬件设计框图
+<img src="https://github.com/LB1222/LPC-LoRaN-MonitoringSystem/raw/Images/图片1.png" width="300" height="200" />
+
+
+<!-- ![Image 1](https://github.com/LB1222/LPC-LoRaN-MonitoringSystem/raw/Images/图片1.png)
+## LoRa节点硬件设计框图 -->
+
 ![image](https://github.com/user-attachments/assets/8f102672-e017-464b-850f-83c94b68a914)
 
 ## Lora节点实物展示
