@@ -2,6 +2,11 @@
 目前暂时上传项目说明文档，源代码还需要完善，敬请期待！
 
 **GitHub的MARKDOWN语言似乎跟Obsidian的MARKDOWN有区别** 图片大小暂时这样！
+## 系统总体方案设计
+![Image 1](https://github.com/LB1222/LPC-LoRaN-MonitoringSystem/raw/Images/图片1.png)
+## LoRa节点硬件设计框图
+![image](https://github.com/user-attachments/assets/8f102672-e017-464b-850f-83c94b68a914)
+
 ## Lora节点实物展示
   正式板由4层板改为2层板，一是降低成本，二是打板速度更快。除了传感器使用排母，所有器件都是手搓，用 热台的速度会快些，但是元器件种类比较多，这块儿比较耽误时间。Lora节点板1.2所有功能全测暂时没有遇到问题，布线没有4层板漂亮。
    **部分0603的贴片可以换成0805的，MCU不建议用我这款**
