@@ -1,5 +1,5 @@
 # 低功耗Lora自组网络监测系统
-目前暂时上传项目说明文档，源代码还需要完善，敬请期待！
+<span style="color: red;">目前暂时上传项目说明文档，源代码还需要完善，敬请期待！</span>
 
 **GitHub的MARKDOWN语言似乎跟Obsidian的MARKDOWN有区别** 图片大小暂时这样！
 ## Lora节点实物展示
