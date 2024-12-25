@@ -1,0 +1,608 @@
+2023-11-15 18:44:39.0410 AT+LUATCONSOLE=1
+2023-11-15 18:44:39.0410 
+2023-11-15 18:44:39.0410 ATI
+2023-11-15 18:44:39.0410 
+2023-11-15 18:44:39.0410 LuatOS-Air_V4025_RDA8910_TTS_NOLVGL_FLOAT
+2023-11-15 18:44:39.0410 
+2023-11-15 18:44:39.0410 OK
+2023-11-15 18:44:39.0410 AT+LUACHECKSUM=1ee6d52b98eb431be7e86a47b3a0915f
+2023-11-15 18:44:39.0506 
+2023-11-15 18:44:39.0506 +LUACHECKSUM: 0
+2023-11-15 18:44:39.0520 
+2023-11-15 18:44:39.0530 OK
+2023-11-15 18:44:39.0540 AT*DOWNLOAD=1
+2023-11-15 18:44:57.1037 AT+LUATCONSOLE=1
+2023-11-15 18:44:57.1058 
+2023-11-15 18:44:57.9457 
+2023-11-15 18:44:57.9457 +CPIN: READY
+2023-11-15 18:44:57.9457 
+2023-11-15 18:44:57.9457 ^CARDMODE: 0
+2023-11-15 18:45:00.6693 
+2023-11-15 18:45:00.6693 +CPIN: READY
+2023-11-15 18:45:00.6793 
+2023-11-15 18:45:00.6793 ^CARDMODE: 2
+2023-11-15 18:45:01.3407 > lualibc_fopen fail -4200062,0,/lib_err.txt
+2023-11-15 18:45:01.3407 lualibc_fopen fail -4200062,0,/luaerrinfo.txt
+2023-11-15 18:45:01.3407 lualibc_fopen fail -4200062,0,/lib_network_err.txt
+2023-11-15 18:45:01.3709 [I]-[poweron reason:] 3 UART 2.0.0 2.4.4 LuatOS-Air_V4025_RDA8910_TTS_NOLVGL_FLOAT
+2023-11-15 18:45:01.3709 [I]-[core build time] Sep  5 2023 13:27:08
+2023-11-15 18:45:01.3807 [I]-[ril.proatc] RDY
+2023-11-15 18:45:01.3807 [I]-[ril.proatc] +CPIN: READY
+2023-11-15 18:45:01.3807 [I]-[ril.proatc] ^CARDMODE: 0
+2023-11-15 18:45:01.3807 [I]-[ril.defurc] ^CARDMODE: 0
+2023-11-15 18:45:01.3807 [I]-[ril.proatc] +CPIN: READY
+2023-11-15 18:45:01.3907 [I]-[ril.proatc] ^CARDMODE: 2
+2023-11-15 18:45:01.3907 [I]-[ril.defurc] ^CARDMODE: 2
+2023-11-15 18:45:01.3907 [I]-[ril.sendat] ATE0
+2023-11-15 18:45:01.3907 [I]-[SIM.subscribe] nil RDY
+2023-11-15 18:45:01.3994 [I]-[SIM.subscribe] false RDY
+2023-11-15 18:45:01.4043 [I]-[ril.proatc] ATE0
+2023-11-15 18:45:01.4053 [I]-[ril.defurc] ATE0
+2023-11-15 18:45:01.4255 [I]-[ril.proatc] OK
+2023-11-15 18:45:01.4264 [I]-[ril.defrsp] ATE0 true OK nil
+2023-11-15 18:45:01.4264 [I]-[ril.sendat] AT+CMEE=0
+2023-11-15 18:45:01.4528 [I]-[ril.proatc] OK
+2023-11-15 18:45:01.4528 [I]-[ril.defrsp] AT+CMEE=0 true OK nil
+2023-11-15 18:45:01.4599 [I]-[ril.sendat] AT+SIMCROSS?
+2023-11-15 18:45:01.4808 [I]-[ril.proatc] +SIMCROSS:0
+2023-11-15 18:45:01.4882 [I]-[ril.proatc] OK
+2023-11-15 18:45:01.4882 [I]-[ril.sendat] AT+COPS?
+2023-11-15 18:45:01.5162 [I]-[ril.proatc] +COPS: 0
+2023-11-15 18:45:01.5162 [I]-[cops] nil nil nil
+2023-11-15 18:45:01.5162 [I]-[ril.proatc] OK
+2023-11-15 18:45:01.5227 [I]-[ril.defrsp] AT+COPS? true OK nil
+2023-11-15 18:45:01.5246 [I]-[ril.sendat] AT+CREG=2
+2023-11-15 18:45:01.5505 [I]-[ril.proatc] OK
+2023-11-15 18:45:01.5522 [I]-[ril.defrsp] AT+CREG=2 true OK nil
+2023-11-15 18:45:01.5522 [I]-[ril.sendat] AT+CGREG=2
+2023-11-15 18:45:01.5736 [I]-[ril.proatc] OK
+2023-11-15 18:45:01.5826 [I]-[ril.defrsp] AT+CGREG=2 true OK nil
+2023-11-15 18:45:01.5852 [I]-[ril.sendat] AT+CEREG=2
+2023-11-15 18:45:01.6233 [I]-[ril.proatc] OK
+2023-11-15 18:45:01.6253 [I]-[ril.defrsp] AT+CEREG=2 true OK nil
+2023-11-15 18:45:01.6279 [I]-[ril.sendat] AT+CREG?
+2023-11-15 18:45:01.6632 [I]-[ril.proatc] +CREG: 2,0,"0000","00000000",0
+2023-11-15 18:45:01.6632 [I]-[net.creg1] 0 +CREG: 
+2023-11-15 18:45:01.6632 [I]-[net.creg7] 0 0
+2023-11-15 18:45:01.6731 [I]-[ril.proatc] OK
+2023-11-15 18:45:01.6793 [I]-[ril.defrsp] AT+CREG? true OK nil
+2023-11-15 18:45:01.6823 [I]-[ril.sendat] AT+CGREG?
+2023-11-15 18:45:01.7195 [I]-[ril.proatc] +CGREG: 2,0,"0000","00000000"
+2023-11-15 18:45:01.7195 [I]-[net.creg1] 0 +CREG: 
+2023-11-15 18:45:01.7195 [I]-[net.creg7] 0 nil
+2023-11-15 18:45:01.7195 [I]-[net.creg9 ignore!!!]
+2023-11-15 18:45:01.7293 [I]-[ril.proatc] OK
+2023-11-15 18:45:01.7312 [I]-[ril.defrsp] AT+CGREG? true OK nil
+2023-11-15 18:45:01.7342 [I]-[ril.sendat] AT+CEREG?
+2023-11-15 18:45:01.7581 [I]-[ril.proatc] +CEREG: 2,0,"0000","00000000",0,0,0
+2023-11-15 18:45:01.7681 [I]-[net.creg1] 0 +CREG: 
+2023-11-15 18:45:01.7681 [W]-[net.creg1] no match +CEREG: 2,0,"0000","00000000",0,0,0
+2023-11-15 18:45:01.7681 [I]-[ril.proatc] OK
+2023-11-15 18:45:01.7681 [I]-[ril.defrsp] AT+CEREG? true OK nil
+2023-11-15 18:45:01.7781 [I]-[ril.sendat] AT+CALIBINFO?
+2023-11-15 18:45:01.8054 [I]-[ril.proatc] GSM_CALIBINFO: GSM_afc:0, GSM850_agc:0, GSM850_apc:0, GSM900_agc:0, GSM900_apc:0, DCS1800_agc:0,DCS1800_apc:0,
+2023-11-15 18:45:01.8054  PCS1900_agc:0, PCS1900_apc:0, GSM_FT:0, GSM_ANT:0 
+2023-11-15 18:45:01.8093 [I]-[ril.proatc] LTE_CALIBINFO: LTE_afc:1, LTE_TDD_agc:1, LTE_TDD_apc:1, LTE_FDD_agc:1, LTE_FDD_apc:1, FINAL_LTE:1, ANT_LTE:0
+2023-11-15 18:45:01.8125 [I]-[ril.proatc] OK
+2023-11-15 18:45:01.8137 [I]-[ril.sendat] AT*BAND?
+2023-11-15 18:45:01.8340 [I]-[ril.proatc] ERROR
+2023-11-15 18:45:01.8340 [I]-[ril.defrsp] AT*BAND? false ERROR nil
+2023-11-15 18:45:01.8437 [I]-[ril.sendat] AT+EEMOPT=1
+2023-11-15 18:45:01.8539 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:01.8609 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:01.8701 [I]-[ril.proatc] OK
+2023-11-15 18:45:01.8740 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:01.8997 [I]-[ril.proatc] +CSQ: 99,99
+2023-11-15 18:45:01.9026 [I]-[ril.proatc] OK
+2023-11-15 18:45:01.9047 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:01.9314 [I]-[ril.proatc] +CESQ: 99,99,255,255,255,255
+2023-11-15 18:45:01.9323 [I]-[ril.proatc] OK
+2023-11-15 18:45:01.9383 [I]-[ril.sendat] AT+EEMGINFO?
+2023-11-15 18:45:01.9602 [I]-[ril.proatc] +EEMGINFO: 3, 0
+2023-11-15 18:45:01.9602 [I]-[ril.defurc] +EEMGINFO: 3, 0
+2023-11-15 18:45:01.9602 [I]-[ril.proatc] OK
+2023-11-15 18:45:01.9602 [I]-[ril.defrsp] AT+EEMGINFO? true OK nil
+2023-11-15 18:45:01.9702 [I]-[ril.sendat] AT+RNDISCALL=0,1
+2023-11-15 18:45:01.9702 
+2023-11-15 18:45:01.9702 +EEMGINFOSVC: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 0, 0, 0 0, 0, 65535, 0, 0, 0, 0, 0, 65535, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2023-11-15 18:45:01.9702 
+2023-11-15 18:45:01.9702 [I]-[ril.proatc] +EEMGINFOSVC: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 0, 0, 0 0, 0, 65535, 0, 0, 0, 0, 0, 65535, 0, 0, 0, 0, 0, 0, 0
+2023-11-15 18:45:01.9702 , 0, 0, 0, 0, 0, 0
+2023-11-15 18:45:02.0087 [I]-[ril.proatc] OK
+2023-11-15 18:45:02.0106 [I]-[ril.defrsp] AT+RNDISCALL=0,1 true OK nil
+2023-11-15 18:45:02.0136 [I]-[ril.sendat] AT+CIND=1
+2023-11-15 18:45:02.0322 [I]-[ril.proatc] OK
+2023-11-15 18:45:02.0420 [I]-[ril.sendat] AT+WISN?
+2023-11-15 18:45:02.0663 [I]-[ril.proatc] 01064925107627
+2023-11-15 18:45:02.0703 [I]-[ril.proatc] OK
+2023-11-15 18:45:02.0742 [I]-[ril.sendat] AT+CGSN
+2023-11-15 18:45:02.0920 [I]-[ril.proatc] 868739057436648
+2023-11-15 18:45:02.1023 [I]-[ril.proatc] OK
+2023-11-15 18:45:02.1023 [I]-[ril.sendat] AT+MUID?
+2023-11-15 18:45:02.1299 [I]-[ril.proatc] +MUID: 20210430041903A060531A0337255310
+2023-11-15 18:45:02.1328 [I]-[ril.proatc] OK
+2023-11-15 18:45:02.1336 [I]-[ril.sendat] AT*EXINFO?
+2023-11-15 18:45:02.1607 [I]-[ril.proatc] *EXINFO:poweron=3
+2023-11-15 18:45:02.1607 [I]-[ril.defurc] *EXINFO:poweron=3
+2023-11-15 18:45:02.1607 [I]-[ril.proatc] OK
+2023-11-15 18:45:02.1607 [I]-[ril.defrsp] AT*EXINFO? true OK nil
+2023-11-15 18:45:02.1707 [I]-[ril.sendat] AT+CGMM
+2023-11-15 18:45:02.1972 [I]-[ril.proatc] +CGMM: "Air724UG"
+2023-11-15 18:45:02.1999 [I]-[ril.proatc] OK
+2023-11-15 18:45:02.2047 [I]-[ril.sendat] AT+ICCID
+2023-11-15 18:45:02.3573 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:02.3573 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:02.3573 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:02.3673 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:02.3678 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:02.8362 
+2023-11-15 18:45:02.8362 +CREG: 3,"2109","0214a738",0
+2023-11-15 18:45:02.8362 
+2023-11-15 18:45:02.8362 +CREG: 2,"2109","0214a738",7
+2023-11-15 18:45:02.8362 
+2023-11-15 18:45:02.8362 +CEREG: 2,"2109","0214a738",7
+2023-11-15 18:45:02.8562 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:02.8562 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:02.8662 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:02.8662 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:03.3629 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:03.3629 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:03.3729 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:03.3729 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:03.3927 
+2023-11-15 18:45:03.3927 SMS READY
+2023-11-15 18:45:03.5073 [I]-[ril.proatc] +ICCID: 898604C71522C0265577
+2023-11-15 18:45:03.5073 [I]-[ril.proatc] OK
+2023-11-15 18:45:03.5173 [I]-[ril.sendat] AT+CIMI
+2023-11-15 18:45:03.5173 [I]-[ril.proatc] +CREG: 3,"2109","0214a738",0
+2023-11-15 18:45:03.5173 [I]-[net.creg1] 0 +CREG: 
+2023-11-15 18:45:03.5173 [I]-[net.creg7] 3 0
+2023-11-15 18:45:03.5273 [I]-[ril.proatc] +CREG: 2,"2109","0214a738",7
+2023-11-15 18:45:03.5273 [I]-[net.creg1] 0 +CREG: 
+2023-11-15 18:45:03.5273 [I]-[net.creg7] 2 7
+2023-11-15 18:45:03.5273 [I]-[ril.proatc] +CEREG: 2,"2109","0214a738",7
+2023-11-15 18:45:03.5273 [I]-[net.creg1] 0 +CREG: 
+2023-11-15 18:45:03.5273 [W]-[net.creg1] no match +CEREG: 2,"2109","0214a738",7
+2023-11-15 18:45:03.5273 [I]-[ril.proatc] SMS READY
+2023-11-15 18:45:03.5373 [I]-[ril.defurc] SMS READY
+2023-11-15 18:45:03.5912 [I]-[ril.proatc] 460084712005577
+2023-11-15 18:45:03.5912 [I]-[ril.proatc] OK
+2023-11-15 18:45:03.6013 [I]-[ril.sendat] AT+ICCID
+2023-11-15 18:45:03.6571 [I]-[ril.proatc] +ICCID: 898604C71522C0265577
+2023-11-15 18:45:03.6605 [I]-[ril.proatc] OK
+2023-11-15 18:45:03.6605 [I]-[ril.sendat] AT+CIMI
+2023-11-15 18:45:03.6993 
+2023-11-15 18:45:03.6993 +CREG: 3,"2109","0fe69d85",0
+2023-11-15 18:45:03.6999 
+2023-11-15 18:45:03.7009 +CREG: 2,"2109","0fe69d85",7
+2023-11-15 18:45:03.7020 
+2023-11-15 18:45:03.7020 +CEREG: 2,"2109","0fe69d85",7
+2023-11-15 18:45:03.7191 [I]-[ril.proatc] 460084712005577
+2023-11-15 18:45:03.7194 [I]-[ril.proatc] OK
+2023-11-15 18:45:03.7259 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:03.7289 [I]-[ril.proatc] +CREG: 3,"2109","0fe69d85",0
+2023-11-15 18:45:03.7308 [I]-[net.creg1] 0 +CREG: 
+2023-11-15 18:45:03.7328 [I]-[net.creg7] 3 0
+2023-11-15 18:45:03.7338 [I]-[ril.proatc] +CREG: 2,"2109","0fe69d85",7
+2023-11-15 18:45:03.7358 [I]-[net.creg1] 0 +CREG: 
+2023-11-15 18:45:03.7378 [I]-[net.creg7] 2 7
+2023-11-15 18:45:03.7380 [I]-[ril.proatc] +CEREG: 2,"2109","0fe69d85",7
+2023-11-15 18:45:03.7380 [I]-[net.creg1] 0 +CREG: 
+2023-11-15 18:45:03.7380 [W]-[net.creg1] no match +CEREG: 2,"2109","0fe69d85",7
+2023-11-15 18:45:03.7680 [I]-[ril.proatc] +CSQ: 31,0
+2023-11-15 18:45:03.7724 [I]-[ril.proatc] OK
+2023-11-15 18:45:03.7764 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:03.8012 [I]-[ril.proatc] +CESQ: 99,99,255,255,0,97
+2023-11-15 18:45:03.8043 [I]-[ril.proatc] OK
+2023-11-15 18:45:03.8087 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:03.8343 [I]-[ril.proatc] +CSQ: 31,0
+2023-11-15 18:45:03.8400 [I]-[ril.proatc] OK
+2023-11-15 18:45:03.8448 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:03.8667 [I]-[ril.proatc] +CESQ: 99,99,255,255,0,97
+2023-11-15 18:45:03.8667 [I]-[ril.proatc] OK
+2023-11-15 18:45:03.8765 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:03.8765 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:03.8765 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:03.9022 [I]-[ril.proatc] +CSQ: 31,0
+2023-11-15 18:45:03.9045 [I]-[ril.proatc] OK
+2023-11-15 18:45:03.9084 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:03.9272 [I]-[ril.proatc] +CESQ: 99,99,255,255,0,97
+2023-11-15 18:45:03.9372 [I]-[ril.proatc] OK
+2023-11-15 18:45:03.9404 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:03.9668 [I]-[ril.proatc] +CSQ: 31,0
+2023-11-15 18:45:03.9668 [I]-[ril.proatc] OK
+2023-11-15 18:45:03.9668 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:03.9985 [I]-[ril.proatc] +CESQ: 99,99,255,255,0,97
+2023-11-15 18:45:04.0015 [I]-[ril.proatc] OK
+2023-11-15 18:45:04.0045 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:04.0285 [I]-[ril.proatc] +CSQ: 31,0
+2023-11-15 18:45:04.0285 [I]-[ril.proatc] OK
+2023-11-15 18:45:04.0285 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:04.0624 [I]-[ril.proatc] +CESQ: 99,99,255,255,0,97
+2023-11-15 18:45:04.0645 [I]-[ril.proatc] OK
+2023-11-15 18:45:04.0684 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:04.0938 [I]-[ril.proatc] +CSQ: 31,0
+2023-11-15 18:45:04.0974 [I]-[ril.proatc] OK
+2023-11-15 18:45:04.0984 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:04.1265 [I]-[ril.proatc] +CESQ: 99,99,255,255,0,97
+2023-11-15 18:45:04.1296 [I]-[ril.proatc] OK
+2023-11-15 18:45:04.1325 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:04.1498 [I]-[ril.proatc] +CSQ: 31,0
+2023-11-15 18:45:04.1595 [I]-[ril.proatc] OK
+2023-11-15 18:45:04.1595 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:04.1899 [I]-[ril.proatc] +CESQ: 99,99,255,255,0,97
+2023-11-15 18:45:04.1936 [I]-[ril.proatc] OK
+2023-11-15 18:45:04.1968 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:04.2207 [I]-[ril.proatc] +CSQ: 31,0
+2023-11-15 18:45:04.2207 [I]-[ril.proatc] OK
+2023-11-15 18:45:04.2277 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:04.2546 [I]-[ril.proatc] +CESQ: 99,99,255,255,0,97
+2023-11-15 18:45:04.2573 [I]-[ril.proatc] OK
+2023-11-15 18:45:04.2609 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:04.2850 [I]-[ril.proatc] +CSQ: 31,0
+2023-11-15 18:45:04.2850 [I]-[ril.proatc] OK
+2023-11-15 18:45:04.2947 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:04.3201 [I]-[ril.proatc] +CESQ: 99,99,255,255,0,97
+2023-11-15 18:45:04.3214 [I]-[ril.proatc] OK
+2023-11-15 18:45:04.3614 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:04.3614 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:04.3736 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:04.3746 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:04.3865 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:04.3895 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:04.8857 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:04.8955 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:05.3733 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:05.3733 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:05.3932 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:05.3932 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:05.8728 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:05.8728 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:05.9027 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:05.9027 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:06.3760 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:06.3760 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:06.4060 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:06.4060 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:06.6904 
+2023-11-15 18:45:06.6904 +CREG: 3,"2109","021a4c03",0
+2023-11-15 18:45:06.6904 [I]-[ril.proatc] +CREG: 3,"2109","021a4c03",0
+2023-11-15 18:45:06.6904 [I]-[net.creg1] 0 +CREG: 
+2023-11-15 18:45:06.6904 [I]-[net.creg7] 3 0
+2023-11-15 18:45:06.7004 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:06.7004 
+2023-11-15 18:45:06.7004 +CREG: 2,"2109","021a4c03",7
+2023-11-15 18:45:06.7004 [I]-[ril.proatc] +CREG: 2,"2109","021a4c03",7
+2023-11-15 18:45:06.7004 [I]-[net.creg1] 0 +CREG: 
+2023-11-15 18:45:06.7104 [I]-[net.creg7] 2 7
+2023-11-15 18:45:06.7104 
+2023-11-15 18:45:06.7104 +CEREG: 2,"2109","021a4c03",7
+2023-11-15 18:45:06.7104 [I]-[ril.proatc] +CEREG: 2,"2109","021a4c03",7
+2023-11-15 18:45:06.7104 [I]-[net.creg1] 0 +CREG: 
+2023-11-15 18:45:06.7104 [W]-[net.creg1] no match +CEREG: 2,"2109","021a4c03",7
+2023-11-15 18:45:06.7407 [I]-[ril.proatc] +CSQ: 12,99
+2023-11-15 18:45:06.7451 [I]-[ril.proatc] OK
+2023-11-15 18:45:06.7482 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:06.7744 [I]-[ril.proatc] +CESQ: 99,99,255,255,22,23
+2023-11-15 18:45:06.7744 [I]-[ril.proatc] OK
+2023-11-15 18:45:06.7744 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:06.8072 [I]-[ril.proatc] +CSQ: 12,99
+2023-11-15 18:45:06.8100 [I]-[ril.proatc] OK
+2023-11-15 18:45:06.8148 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:06.8372 [I]-[ril.proatc] +CESQ: 99,99,255,255,22,23
+2023-11-15 18:45:06.8372 [I]-[ril.proatc] OK
+2023-11-15 18:45:06.8372 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:06.8709 [I]-[ril.proatc] +CSQ: 12,99
+2023-11-15 18:45:06.8729 [I]-[ril.proatc] OK
+2023-11-15 18:45:06.8769 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:06.8969 [I]-[ril.proatc] +CESQ: 99,99,255,255,22,23
+2023-11-15 18:45:06.8969 [I]-[ril.proatc] OK
+2023-11-15 18:45:06.9069 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:06.9069 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:07.3731 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:07.3731 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:07.3830 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:07.3830 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:07.4184 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:07.4213 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:07.9240 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:07.9268 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:08.3926 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:08.3943 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:08.4243 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:08.4243 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:08.8830 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:08.8839 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:08.9379 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:08.9399 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:09.3977 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:09.3993 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:09.4437 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:09.4465 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:09.9503 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:09.9528 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:10.3873 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:10.3873 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:10.4026 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:10.4036 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:10.4570 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:10.4595 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:10.9595 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:10.9595 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:11.4031 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:11.4031 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:11.4698 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:11.4720 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:11.8884 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:11.8884 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:11.9760 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:11.9779 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:12.4126 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:12.4139 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:12.4825 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:12.4825 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:12.9818 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:12.9818 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:13.3901 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:13.3901 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:13.4099 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:13.4200 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:13.4861 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:13.4861 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:13.9949 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:13.9949 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:14.4193 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:14.4193 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:14.5026 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:14.5050 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:14.8971 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:14.8971 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:15.0036 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:15.0036 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:15.4285 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:15.4285 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:15.5075 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:15.5145 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:16.0096 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:16.0196 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:16.3983 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:16.4081 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:16.4337 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:16.4357 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:16.5197 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:16.5197 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:17.0180 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:17.0278 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:17.4311 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:17.4409 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:17.5311 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:17.5311 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:17.9076 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:17.9076 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:18.0270 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:18.0370 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:18.4422 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:18.4422 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:18.5340 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:18.5436 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:19.0433 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:19.0492 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:19.4113 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:19.4113 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:19.4415 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:19.4511 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:19.5487 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:19.5487 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:20.0567 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:20.0594 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:20.4485 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:20.4485 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:20.5613 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:20.5644 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:20.9197 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:20.9197 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:21.0657 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:21.0691 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:21.4581 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:21.4581 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:21.5694 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:21.5694 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:22.0680 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:22.0780 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:22.4198 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:22.4198 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:22.4600 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:22.4600 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:22.5813 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:22.5824 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:23.0783 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:23.0881 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:23.4655 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:23.4655 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:23.5884 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:23.5884 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:23.9310 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:23.9310 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:24.0956 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:24.0956 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:24.4747 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:24.4747 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:24.5959 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:24.5959 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:25.0982 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:25.1080 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:25.4294 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:25.4294 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:25.4779 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:25.4779 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:25.6053 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:25.6053 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:26.1112 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:26.1112 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:26.4766 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:26.4766 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:26.6153 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:26.6153 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:26.9346 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:26.9346 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:27.1252 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:27.1252 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:27.4808 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:27.4906 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:27.6280 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:27.6280 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:28.1325 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:28.1325 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:28.4404 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:28.4404 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:28.4905 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:28.4905 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:28.6412 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:28.6443 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:29.1464 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:29.1491 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:29.4943 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:29.4943 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:29.6480 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:29.6480 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:29.9425 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:29.9524 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:30.1583 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:30.1583 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:30.5022 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:30.5022 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:30.6586 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:30.6586 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:31.1687 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:31.1717 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:31.4478 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:31.4576 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:31.5077 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:31.5077 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:31.6661 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:31.6759 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:32.1727 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:32.1727 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:32.5127 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:32.5142 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:32.6792 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:32.6862 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:32.9558 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:32.9558 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:33.1806 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:33.1904 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:33.2004 
+2023-11-15 18:45:33.2004 +CREG: 3,"ee56","00df570d",0
+2023-11-15 18:45:33.2004 [I]-[ril.proatc] +CREG: 3,"ee56","00df570d",0
+2023-11-15 18:45:33.2004 [I]-[net.creg1] 0 +CREG: 
+2023-11-15 18:45:33.2004 [I]-[net.creg7] 3 0
+2023-11-15 18:45:33.2104 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:33.2104 
+2023-11-15 18:45:33.2104 +CREG: 2,"ee56","00df570d",7
+2023-11-15 18:45:33.2104 [I]-[ril.proatc] +CREG: 2,"ee56","00df570d",7
+2023-11-15 18:45:33.2104 [I]-[net.creg1] 0 +CREG: 
+2023-11-15 18:45:33.2104 [I]-[net.creg7] 2 7
+2023-11-15 18:45:33.2204 
+2023-11-15 18:45:33.2204 +CEREG: 2,"ee56","00df570d",7
+2023-11-15 18:45:33.2204 [I]-[ril.proatc] +CEREG: 2,"ee56","00df570d",7
+2023-11-15 18:45:33.2204 [I]-[net.creg1] 0 +CREG: 
+2023-11-15 18:45:33.2204 [W]-[net.creg1] no match +CEREG: 2,"ee56","00df570d",7
+2023-11-15 18:45:33.2495 [I]-[ril.proatc] +CSQ: 12,99
+2023-11-15 18:45:33.2502 [I]-[ril.proatc] OK
+2023-11-15 18:45:33.2569 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:33.2818 [I]-[ril.proatc] +CESQ: 99,99,255,255,22,23
+2023-11-15 18:45:33.2818 [I]-[ril.proatc] OK
+2023-11-15 18:45:33.2818 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:33.3146 [I]-[ril.proatc] +CSQ: 12,99
+2023-11-15 18:45:33.3184 [I]-[ril.proatc] OK
+2023-11-15 18:45:33.3221 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:33.3418 [I]-[ril.proatc] +CESQ: 99,99,255,255,22,23
+2023-11-15 18:45:33.3418 [I]-[ril.proatc] OK
+2023-11-15 18:45:33.3516 [I]-[ril.sendat] AT+CSQ
+2023-11-15 18:45:33.3785 [I]-[ril.proatc] +CSQ: 12,99
+2023-11-15 18:45:33.3815 [I]-[ril.proatc] OK
+2023-11-15 18:45:33.3861 [I]-[ril.sendat] AT+CESQ
+2023-11-15 18:45:33.4101 [I]-[ril.proatc] +CESQ: 99,99,255,255,22,23
+2023-11-15 18:45:33.4131 [I]-[ril.proatc] OK
+2023-11-15 18:45:33.5099 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:33.5099 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:33.6929 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:33.6929 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:34.1975 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:34.1975 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:34.4662 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:34.4662 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:34.5165 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:34.5165 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:34.7028 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:34.7028 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:35.2094 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:35.2127 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:35.5272 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:35.5272 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:35.7146 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:35.7146 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:35.9614 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:35.9713 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:36.2139 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:36.2139 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:36.5305 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:36.5305 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:36.7154 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:36.7253 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:37.2271 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:37.2271 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:37.4761 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:37.4767 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:37.5327 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:37.5386 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:37.7341 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:37.7341 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:38.2308 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:38.2406 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:38.5376 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:38.5376 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:38.7359 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:38.7459 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:38.9804 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:38.9804 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:39.2472 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:39.2472 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:39.5380 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:39.5480 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:39.7469 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:39.7469 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:40.2534 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:40.2534 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:40.4810 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:40.4810 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:40.5521 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:40.5531 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:40.7604 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:40.7604 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:41.2666 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:41.2666 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:41.5564 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:41.5574 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:41.7696 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:41.7696 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:41.9815 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:41.9914 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:42.2708 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:42.2806 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:42.5610 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:42.5620 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:42.7819 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:42.7819 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:43.2890 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:43.2951 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:43.4961 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:43.4977 [I]-[testUart.write] CMD_ERROR
+2023-11-15 18:45:43.5665 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:43.5675 [I]-[testUart.write] CMD_GPIO
+2023-11-15 18:45:43.7987 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:43.8016 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:44.3024 [I]-[testUart.write] CMD_SCANNER
+2023-11-15 18:45:44.3024 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:44.5665 [I]-[testUart.write] �UAVDD�
+2023-11-15 18:45:44.5665 [I]-[testUart.write] CMD_GPIO

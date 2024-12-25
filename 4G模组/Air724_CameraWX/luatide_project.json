@@ -1,0 +1,22 @@
+{
+	"version": "2.6",
+	"projectName": "Air724_CameraWX",
+	"projectType": "pure",
+	"corePath": "c:\\Users\\a\\AppData\\Roaming\\LuatIDE\\LuatideCore\\CORE_CUSTOM\\LuatOS-Air_V4010_RDA8910_RCMSDVG_0x140000.pac",
+	"libPath": "C:\\Users\\a\\AppData\\Roaming\\LuatIDE\\LuatideLib\\Air72XUX_LIB\\V2.4.4\\lib",
+	"moduleModel": "air72XUX/air82XUX",
+	"appFile": [
+		"ca.crt",
+		"client.crt",
+		"luatide_project.json",
+		"main.lua",
+		"mqttInMsg.lua",
+		"mqttOutMsg.lua",
+		"mqttTask.lua"
+	],
+	"modulePort": "COM27",
+	"ignore": [
+		"slave.lua"
+	],
+	"simulatorRun": "disable"
+}

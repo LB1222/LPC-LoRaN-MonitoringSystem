@@ -1,0 +1,19 @@
+{
+	"version": "2.6",
+	"projectName": "uart",
+	"projectType": "pure",
+	"corePath": "C:\\Users\\a\\AppData\\Roaming\\LuatIDE\\LuatideCore\\Air72XUX_CORE\\LuatOS-Air_V4025_RDA8910_TTS_NOLVGL_FLOAT.pac",
+	"libPath": "C:\\Users\\a\\AppData\\Roaming\\LuatIDE\\LuatideLib\\Air72XUX_LIB\\V2.4.4\\lib",
+	"moduleModel": "air72XUX/air82XUX",
+	"appFile": [
+		"luatide_project.json",
+		"main.lua",
+		"mcu101.bin",
+		"testUart1.lua",
+		"testUart2Task.lua",
+		"testUart3SentFile.lua"
+	],
+	"modulePort": "",
+	"ignore": [],
+	"simulatorRun": "disable"
+}
